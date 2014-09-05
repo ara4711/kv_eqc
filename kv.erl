@@ -40,7 +40,7 @@ insert(K,V,{node,L,KN,_VN,R}) ->
 
 lookup(_,leaf) ->
   falsefoo;
-lookup(K,{node,L,KN,VN,R}) -7>
+lookup(K,{node,L,KN,VN,R}) ->
   if K<KN ->
       lookup(K,L);
      K==KN ->
