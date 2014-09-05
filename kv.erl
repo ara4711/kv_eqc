@@ -39,8 +39,8 @@ insert(K,V,{node,L,KN,_VN,R}) ->
   end.
 
 lookup(_,leaf) ->
-  false;
-lookup(K,{node,L,KN,VN,R}) ->
+  falsefoo;
+lookup(K,{node,L,KN,VN,R}) -7>
   if K<KN ->
       lookup(K,L);
      K==KN ->
